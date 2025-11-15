@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jhonatan Orlandi de Abrantes — Desenvolvedor Python & Web</title>
+  <meta name="description" content="Portfólio Jhonatan Orlandi de Abrantes — Desenvolvimento Web e Scripts em Python" />
+  <style>
+    :root{--accent:#0ea5a4;--bg:#0f172a;--card:#0b1220;--muted:#94a3b8;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0; background:linear-gradient(180deg,#071025 0%, #071630 100%); color:#e6eef6; -webkit-font-smoothing:antialiased}
+    .container{max-width:980px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .avatar{width:68px;height:68px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6366f1);display:flex;align-items:center;justify-content:center;font-weight:700}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+    .hero{margin-top:30px;background:var(--glass);padding:28px;border-radius:14px;display:grid;grid-template-columns:1fr 320px;gap:20px}
+    h1{margin:0;font-size:24px}
+    p.lead{color:var(--muted);margin-top:8px}
+    .cta{margin-top:16px}
+    .btn{background:var(--accent);color:#042029;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .card{background:var(--card);padding:18px;border-radius:12px}
+    section{margin-top:22px}
+    .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .skill{padding:12px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent)}
+    .projects-list{display:flex;flex-direction:column;gap:12px}
+    .project{display:flex;justify-content:space-between;gap:12px;padding:12px;border-radius:10px;background:linear-gradient(90deg, rgba(255,255,255,0.02), transparent)}
+    .project a{color:var(--accent);text-decoration:none}
+    footer{margin-top:28px;padding:18px;text-align:center;color:var(--muted);font-size:14px}
+    @media(max-width:880px){.hero{grid-template-columns:1fr}.avatar{width:56px;height:56px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar">
+          <img alt="Imagem de perfil" style="width: 70px; border-radius: 10px;" src="https://avatars.githubusercontent.com/u/194443620?v=4">
+        </div>
+        <div>
+          <div style="font-weight:700">Jhonatan Orlandi de Abrantes</div>
+          <div style="color:var(--muted);font-size:13px">Desenvolvedor Python • Web</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+        <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes" target="_blank">GitHub</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Olá eu sou Jhonatan e crio sites e scripts em Python.</h1>
+          <p class="lead">Cursando Ensino Médio Técnico em Programação de IA. Trabalho com desenvolvimento web (HTML), automações e projetos em Python e montagem de hardware/redes.</p>
+          <div class="cta">
+            <a class="btn" href="#contato">Contratar / Contato</a>
+            <a style="margin-left:10px;color:var(--muted);text-decoration:none" href="https://github.com/Jhonatan-Orlandi-de-Abrantes" target="_blank">Ver meu GitHub</a>
+          </div>
+          <section id="sobre" style="margin-top:18px">
+            <div class="card">
+              <h3>Sobre mim</h3>
+              <p style="color:var(--muted)">Estudante do Ensino Médio Técnico em Programação de IA no Senac. Tenho experiência em montagem de hardware e redes e possuo Inglês intermediário-avançado.</p>
+              <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap">
+                <span class="skill">Python</span>
+                <span class="skill">HTML & CSS</span>
+                <span class="skill">Desenvolvimento de jogos</span>
+                <span class="skill">Redes & Hardware</span>
+                <span class="skill">Inglês (intermediário-avançado)</span>
+              </div>
+            </div>
+          </section>
+        </div>
+        <aside>
+          <div class="card">
+            <h4>Contato rápido</h4>
+            <p style="color:var(--muted)">Email: <a href="mailto:jhonatanorlandiabrantes@gmail.com" target="_blank" style="color:var(--accent)">jhonatanorlandiabrantes@gmail.com</a></p>
+            <p style="color:var(--muted)">LinkedIn: <a href="https://br.linkedin.com/in/jhonatan-orlandi-de-abrantes-83b10a360" target="_blank" style="color:var(--accent)">Linkedin</a></p>
+            <p style="color:var(--muted)">GitHub: <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes" target="_blank" style="color:var(--accent)">GitHub</a></p>
+          </div>
+          <div class="card" style="margin-top:14px">
+            <h4>Formação</h4>
+            <p style="color:var(--muted)">Ensino Médio Técnico — Programação de Inteligência Artificial (Cursando)</p>
+            <p style="color:var(--muted);font-size:13px">Também: montagem de hardware e redes; desenvolvimento de jogos 2D/3D.</p>
+          </div>
+        </aside>
+      </section>
+      <section id="projetos">
+        <h2>Projetos selecionados</h2>
+        <p style="color:var(--muted)">Selecionamos alguns repositórios do seu GitHub para destacar — você pode ajustar as descrições ou adicionar imagens.</p>
+        <div class="projects-list">
+          <div class="project">
+            <div>
+              <div style="font-weight:700">Chat</div>
+              <div style="color:var(--muted);font-size:13px">Projeto em Python — chat/IA / script de exemplo.</div>
+            </div>
+            <div style="text-align:right">
+              <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes/Chat" target="_blank">Ver no GitHub</a>
+            </div>
+          </div>
+          <div class="project">
+            <div>
+              <div style="font-weight:700">Conversor-de-Moeda</div>
+              <div style="color:var(--muted);font-size:13px">Conversor em Python — utilitário para conversões de moedas.</div>
+            </div>
+            <div>
+              <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes/Conversor-de-Moeda" target="_blank">Ver no GitHub</a>
+            </div>
+          </div>
+          <div class="project">
+            <div>
+              <div style="font-weight:700">IDH-Calculator</div>
+              <div style="color:var(--muted);font-size:13px">Cálculo de indicadores (ex.: IDH) — exemplo de processamento e lógica em Python.</div>
+            </div>
+            <div>
+              <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes/IDH-Calculator" target="_blank">Ver no GitHub</a>
+            </div>
+          </div>
+          <div class="project">
+            <div>
+              <div style="font-weight:700">Mapeador-de-teclas</div>
+              <div style="color:var(--muted);font-size:13px">Utilitário em Python para mapear teclas — automações.</div>
+            </div>
+            <div>
+              <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes/Mapeador-de-teclas" target="_blank">Ver no GitHub</a>
+            </div>
+          </div>
+          <div class="project">
+            <div>
+              <div style="font-weight:700">Personagens-Hollow-Knight</div>
+              <div style="color:var(--muted);font-size:13px">Arquivo CSS / recursos visuais — demonstração de design</div>
+            </div>
+            <div>
+              <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes/Personagens-Hollow-Knight" target="_blank">Ver no GitHub</a>
+            </div>
+          </div>
+          <div class="project">
+            <div>
+              <div style="font-weight:700">Ultra-Fast-Auto-Clicker</div>
+              <div style="color:var(--muted);font-size:13px">Ferramenta em Python para automação de cliques (use com responsabilidade).</div>
+            </div>
+            <div>
+              <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes/Ultra-Fast-Auto-Clicker" target="_blank">Ver no GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="servicos" style="margin-top:18px">
+        <h2>Serviços que ofereço</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h4>Sites</h4>
+            <p style="color:var(--muted)">Criação de páginas e landing pages em HTML/CSS para portfólios, pequenos negócios e apresentações.</p>
+          </div>
+          <div class="card">
+            <h4>Soluções em Python</h4>
+            <p style="color:var(--muted)">Scripts de automação, utilitários, protótipos e análises.</p>
+          </div>
+        </div>
+      </section>
+      <section id="contato">
+        <h2>Contato</h2>
+        <div class="card" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+          <div style="flex:1">
+            <p style="color:var(--muted)">Quer conversar sobre um projeto? Envie uma mensagem explicando o escopo, prazo e orçamento aproximado.</p>
+            <p><a class="btn" href="mailto:jhonatanorlandiabrantes@gmail.com">Enviar email</a></p>
+          </div>
+          <div style="min-width:260px">
+            <div style="color:var(--muted);font-size:13px">Redes sociais:</div>
+            <div style="margin-top:8px">
+              <a href="https://github.com/Jhonatan-Orlandi-de-Abrantes" target="_blank">GitHub</a> • <a href="#">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Feito por Jhonatan Orlandi — Portfólio gerado com modelo inicial. Recomendo publicar como <strong>seu-usuario.github.io</strong> via GitHub Pages.
+    </footer>
+  </div>
+</body>
+</html>
